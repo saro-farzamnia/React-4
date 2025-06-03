@@ -1,13 +1,13 @@
 import {useState} from "react"
 
 const Form = () => {
-    const [name,setName]=useState()
-    const [lastName,setLastName]=useState()
+    const [name,setName]=useState("")
+    const [lastName,setLastName]=useState("")
     const [role,setRole]=useState("admin")
     const [gender,setGender]=useState("male")
     const [rules,setRules]=useState(false)
-    const [email,setEmail]=useState()
-    const [password,setPassword]=useState()
+    const [email,setEmail]=useState("")
+    const [password,setPassword]=useState("")
     const [webDesign,setWebDesign]=useState("frontEnd")
 
     const nameHandler=(e)=>{
