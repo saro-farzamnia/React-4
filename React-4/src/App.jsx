@@ -1,11 +1,13 @@
 import Form from "./Form"
+import FormOrigin from "./FormOrigin"
 
 
 function App() {
 
   return (
     <>
-      <Form/>
+      {/* <Form/> */}
+      <FormOrigin/>
     </>
   )
 }

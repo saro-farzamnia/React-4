@@ -56,11 +56,11 @@ const Form = () => {
       </select>
 
       <label htmlFor="male">Male</label>
-      <input type="radio" name="gender" id="male" onChange={genderHandler} checked={gender} />
+      <input type="radio" name="gender" id="male" onChange={genderHandler} checked={"male"===gender} />
       <label htmlFor="female">Female</label>
-      <input type="radio" name="gender" id="female" onChange={genderHandler} checked={gender} />
+      <input type="radio" name="gender" id="female" onChange={genderHandler} checked={"female"===gender} />
       <label htmlFor="other">Other</label>
-      <input type="radio" name="gender" id="other" onChange={genderHandler} checked={gender} />
+      <input type="radio" name="gender" id="other" onChange={genderHandler} checked={"other"===gender} />
       
       <label htmlFor="low">I accept the rules</label>
       <input type="checkbox" id="low" checked={rules} onChange={rulesHandler} />
